@@ -1,0 +1,294 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.7;
+  color: white;
+}
+
+a {
+  color: #092032;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  font-weight: 500;
+}
+
+.top-nav {
+  /* background-color: khaki; */
+  /* padding-top: 5px;
+    padding-bottom: 5px; */
+  width: 100%;
+}
+
+.top-nav-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.social-link a {
+  width: 34px;
+  height: 34px;
+  margin-top: 18%;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.little-screen-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar-toggler {
+  background-color: #092032 !important;
+}
+
+.litte-screen-search {
+  display: none;
+}
+
+.d-flex {
+  padding-left: 60%;
+}
+
+#f {
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+#i {
+  background: #d6249f;
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+}
+
+.social-link a:hover {
+  transform: scale(1.5);
+}
+header {
+  position: relative;
+  width: 100%;
+  min-height: 66px;
+  /* background: #092032; */
+  background: #f0f0f0;
+
+  padding: 0 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  z-index: 999 !important;
+  position: relative;
+}
+
+header ul {
+  position: relative;
+}
+header ul li {
+  position: relative;
+  list-style: none;
+  float: left;
+  background-color: #f0f0f0;
+}
+header ul li a {
+  /* color: whitesmoke; */
+  font-size: 1.1em;
+  padding: 20px 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header ul li ul {
+  position: absolute;
+  left: 0;
+  width: 200px;
+  display: none;
+}
+header ul li:hover > ul {
+  display: block !important;
+}
+header ul li ul li {
+  position: relative;
+  width: 150%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+header ul li ul li ul {
+  top: 0;
+  left: 218px;
+}
+@media (max-width: 600px) {
+  header {
+    padding-bottom: 10px 10px;
+  }
+  header nav {
+    position: absolute;
+    display: flex;
+    width: 100%;
+    top: 66px;
+    background: #445964;
+  }
+  .menu {
+    display: none;
+  }
+}
+
+.menu-nav a {
+  color: green !important;
+}
+
+h4 {
+  text-align: center;
+  position: relative;
+  color: #333333;
+  margin-top: 20px;
+  font: 2em Arial;
+}
+
+h4::after {
+  content: " ";
+  position: absolute;
+  display: block;
+  left: 40%;
+  bottom: -5px;
+  width: 20%;
+  height: 2px;
+  background-color: rgb(33, 110, 63);
+}
+
+.our-product .title {
+  margin-bottom: 60px;
+}
+
+.our-product .item {
+  width: 188px;
+  height: 270px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.our-product .item img {
+  height: 87%;
+}
+
+.our-product .item .name-box {
+  width: 100%;
+  height: 13%;
+  background-color: #216e3f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+  ul {
+    width: 100%;
+  }
+
+  .top-nav {
+    display: none;
+  }
+
+  .litte-screen-search {
+    display: flex;
+  }
+  .owl-carousel {
+  }
+}
+
+.up {
+  width: 100%;
+  height: 300vh;
+}
+
+.Office {
+  color: #333333;
+}
+
+footer {
+  justify-content: end;
+  align-content: end;
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  background: #333;
+}
+
+footer .container {
+  width: 100%;
+  display: flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 80px;
+}
+
+footer .container h2 {
+  position: relative;
+  color: aliceblue;
+  font-weight: 600;
+  margin-bottom: 15px;
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+footer .container ul li {
+  list-style: none;
+  display: flex;
+}
+
+footer .container li a {
+  display: block;
+  width: 0px;
+  padding: 20px;
+  height: 0px;
+  color: azure;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+footer .container .sec_link h2 {
+  padding-left: 30px;
+}
+
+.copy {
+  width: 100%;
+  font-size: 15px;
+  text-align: center;
+  color: aliceblue;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+@media (max-width: 500px) {
+  footer .container {
+    width: 100%;
+    display: inline;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+}
