@@ -52,7 +52,7 @@ nav {
 
 .menu {
     z-index: 999 !important;
-    position: relative;
+
 }
 
 nav ul {
@@ -113,6 +113,7 @@ nav ul li ul li ul {
     .menu {
         display: none;
     }
+
 }
 
 .menu-nav a {
